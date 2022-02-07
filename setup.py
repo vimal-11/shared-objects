@@ -1,9 +1,11 @@
 from setuptools import Extension, setup
 from Cython.Build import cythonize
 
-#extensions = [Extension("*", ["*.pyx"])]
+#sourcefiles = ['calculator/calc.pyx', 'calculator/main.pyx']
+#extensions = [Extension("calculator", sourcefiles)]
 
 setup(
     name="Mysharedobject",
-    ext_modules = cythonize("calculator/*.pyx")
+    package_dir={'calculator': ''},
+    ext_modules = cythonize('calculator/calculator.pyx')
 )
