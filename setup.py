@@ -6,6 +6,7 @@ from Cython.Build import cythonize
 
 setup(
     name="Mysharedobject",
+    packages=["calculator", "calculator.utility"],
     package_dir={'calculator': ''},
     ext_modules = cythonize('calculator/calculator.pyx')
 )
