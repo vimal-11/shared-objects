@@ -1,4 +1,4 @@
-import calc
+from . import calc
 
 print("hello world!")
 sum = calc.add(5,4)
