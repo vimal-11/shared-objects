@@ -1,0 +1,1 @@
+#PyMODINIT_FUNC  MODINIT(calculator) (void);
