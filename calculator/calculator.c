@@ -1198,6 +1198,7 @@ int __pyx_module_is_main_calculator__calculator = 0;
 static const char __pyx_k_a[] = "a";
 static const char __pyx_k_b[] = "b";
 static const char __pyx_k_c[] = "c";
+static const char __pyx_k__5[] = "";
 static const char __pyx_k_db[] = "db";
 static const char __pyx_k_add[] = "add";
 static const char __pyx_k_end[] = "end";
@@ -1212,10 +1213,11 @@ static const char __pyx_k_test[] = "__test__";
 static const char __pyx_k_print[] = "print";
 static const char __pyx_k_import[] = "__import__";
 static const char __pyx_k_hello_world[] = "hello world!";
-static const char __pyx_k_utility_utils[] = "utility.utils";
 static const char __pyx_k_cline_in_traceback[] = "cline_in_traceback";
 static const char __pyx_k_calculator_calc_pyx[] = "calculator\\calc.pyx";
 static const char __pyx_k_calculator_calculator[] = "calculator.calculator";
+static const char __pyx_k_calculator_utility_utils[] = "calculator.utility.utils";
+static PyObject *__pyx_n_s__5;
 static PyObject *__pyx_n_s_a;
 static PyObject *__pyx_n_s_add;
 static PyObject *__pyx_n_s_b;
@@ -1223,6 +1225,7 @@ static PyObject *__pyx_n_s_c;
 static PyObject *__pyx_n_s_calc;
 static PyObject *__pyx_kp_s_calculator_calc_pyx;
 static PyObject *__pyx_n_s_calculator_calculator;
+static PyObject *__pyx_n_s_calculator_utility_utils;
 static PyObject *__pyx_n_s_cline_in_traceback;
 static PyObject *__pyx_n_s_db;
 static PyObject *__pyx_n_s_diff;
@@ -1236,7 +1239,6 @@ static PyObject *__pyx_n_s_print;
 static PyObject *__pyx_n_s_sub;
 static PyObject *__pyx_n_s_sum;
 static PyObject *__pyx_n_s_test;
-static PyObject *__pyx_n_s_utility_utils;
 static PyObject *__pyx_pf_10calculator_10calculator_add(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_a, PyObject *__pyx_v_b); /* proto */
 static PyObject *__pyx_pf_10calculator_10calculator_2sub(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_a, PyObject *__pyx_v_b); /* proto */
 static PyObject *__pyx_int_2;
@@ -1244,14 +1246,14 @@ static PyObject *__pyx_int_4;
 static PyObject *__pyx_int_5;
 static PyObject *__pyx_tuple_;
 static PyObject *__pyx_tuple__3;
-static PyObject *__pyx_tuple__5;
 static PyObject *__pyx_tuple__6;
+static PyObject *__pyx_tuple__7;
 static PyObject *__pyx_codeobj__2;
 static PyObject *__pyx_codeobj__4;
 /* Late includes */
 
 /* "calculator/calc.pyx":3
- * from utility.utils import db
+ * from calculator.utility.utils import db
  * 
  * def add(a,b):             # <<<<<<<<<<<<<<
  *     c = db(a,b)
@@ -1418,7 +1420,7 @@ static PyObject *__pyx_pf_10calculator_10calculator_add(CYTHON_UNUSED PyObject *
   goto __pyx_L0;
 
   /* "calculator/calc.pyx":3
- * from utility.utils import db
+ * from calculator.utility.utils import db
  * 
  * def add(a,b):             # <<<<<<<<<<<<<<
  *     c = db(a,b)
@@ -1597,6 +1599,7 @@ static struct PyModuleDef __pyx_moduledef = {
 #endif
 
 static __Pyx_StringTabEntry __pyx_string_tab[] = {
+  {&__pyx_n_s__5, __pyx_k__5, sizeof(__pyx_k__5), 0, 0, 1, 1},
   {&__pyx_n_s_a, __pyx_k_a, sizeof(__pyx_k_a), 0, 0, 1, 1},
   {&__pyx_n_s_add, __pyx_k_add, sizeof(__pyx_k_add), 0, 0, 1, 1},
   {&__pyx_n_s_b, __pyx_k_b, sizeof(__pyx_k_b), 0, 0, 1, 1},
@@ -1604,6 +1607,7 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_calc, __pyx_k_calc, sizeof(__pyx_k_calc), 0, 0, 1, 1},
   {&__pyx_kp_s_calculator_calc_pyx, __pyx_k_calculator_calc_pyx, sizeof(__pyx_k_calculator_calc_pyx), 0, 0, 1, 0},
   {&__pyx_n_s_calculator_calculator, __pyx_k_calculator_calculator, sizeof(__pyx_k_calculator_calculator), 0, 0, 1, 1},
+  {&__pyx_n_s_calculator_utility_utils, __pyx_k_calculator_utility_utils, sizeof(__pyx_k_calculator_utility_utils), 0, 0, 1, 1},
   {&__pyx_n_s_cline_in_traceback, __pyx_k_cline_in_traceback, sizeof(__pyx_k_cline_in_traceback), 0, 0, 1, 1},
   {&__pyx_n_s_db, __pyx_k_db, sizeof(__pyx_k_db), 0, 0, 1, 1},
   {&__pyx_n_s_diff, __pyx_k_diff, sizeof(__pyx_k_diff), 0, 0, 1, 1},
@@ -1617,7 +1621,6 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_sub, __pyx_k_sub, sizeof(__pyx_k_sub), 0, 0, 1, 1},
   {&__pyx_n_s_sum, __pyx_k_sum, sizeof(__pyx_k_sum), 0, 0, 1, 1},
   {&__pyx_n_s_test, __pyx_k_test, sizeof(__pyx_k_test), 0, 0, 1, 1},
-  {&__pyx_n_s_utility_utils, __pyx_k_utility_utils, sizeof(__pyx_k_utility_utils), 0, 0, 1, 1},
   {0, 0, 0, 0, 0, 0, 0}
 };
 static CYTHON_SMALL_CODE int __Pyx_InitCachedBuiltins(void) {
@@ -1629,7 +1632,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_RefNannySetupContext("__Pyx_InitCachedConstants", 0);
 
   /* "calculator/calc.pyx":3
- * from utility.utils import db
+ * from calculator.utility.utils import db
  * 
  * def add(a,b):             # <<<<<<<<<<<<<<
  *     c = db(a,b)
@@ -1658,9 +1661,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * diff = calc.sub(5,2)
  * print(sum,diff)
  */
-  __pyx_tuple__5 = PyTuple_Pack(2, __pyx_int_5, __pyx_int_4); if (unlikely(!__pyx_tuple__5)) __PYX_ERR(2, 4, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__5);
-  __Pyx_GIVEREF(__pyx_tuple__5);
+  __pyx_tuple__6 = PyTuple_Pack(2, __pyx_int_5, __pyx_int_4); if (unlikely(!__pyx_tuple__6)) __PYX_ERR(2, 4, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__6);
+  __Pyx_GIVEREF(__pyx_tuple__6);
 
   /* "calculator/main.pyx":5
  * print("hello world!")
@@ -1668,9 +1671,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * diff = calc.sub(5,2)             # <<<<<<<<<<<<<<
  * print(sum,diff)
  */
-  __pyx_tuple__6 = PyTuple_Pack(2, __pyx_int_5, __pyx_int_2); if (unlikely(!__pyx_tuple__6)) __PYX_ERR(2, 5, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__6);
-  __Pyx_GIVEREF(__pyx_tuple__6);
+  __pyx_tuple__7 = PyTuple_Pack(2, __pyx_int_5, __pyx_int_2); if (unlikely(!__pyx_tuple__7)) __PYX_ERR(2, 5, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__7);
+  __Pyx_GIVEREF(__pyx_tuple__7);
   __Pyx_RefNannyFinishContext();
   return 0;
   __pyx_L1_error:;
@@ -1955,7 +1958,7 @@ if (!__Pyx_RefNanny) {
   #endif
 
   /* "calculator/calc.pyx":1
- * from utility.utils import db             # <<<<<<<<<<<<<<
+ * from calculator.utility.utils import db             # <<<<<<<<<<<<<<
  * 
  * def add(a,b):
  */
@@ -1964,7 +1967,7 @@ if (!__Pyx_RefNanny) {
   __Pyx_INCREF(__pyx_n_s_db);
   __Pyx_GIVEREF(__pyx_n_s_db);
   PyList_SET_ITEM(__pyx_t_1, 0, __pyx_n_s_db);
-  __pyx_t_2 = __Pyx_Import(__pyx_n_s_utility_utils, __pyx_t_1, -1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_Import(__pyx_n_s_calculator_utility_utils, __pyx_t_1, -1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_t_1 = __Pyx_ImportFrom(__pyx_t_2, __pyx_n_s_db); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1, __pyx_L1_error)
@@ -1974,7 +1977,7 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "calculator/calc.pyx":3
- * from utility.utils import db
+ * from calculator.utility.utils import db
  * 
  * def add(a,b):             # <<<<<<<<<<<<<<
  *     c = db(a,b)
@@ -1997,17 +2000,26 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "calculator/main.pyx":1
- * import calc             # <<<<<<<<<<<<<<
+ * from . import calc             # <<<<<<<<<<<<<<
  * 
  * print("hello world!")
  */
-  __pyx_t_2 = __Pyx_Import(__pyx_n_s_calc, 0, -1); if (unlikely(!__pyx_t_2)) __PYX_ERR(2, 1, __pyx_L1_error)
+  __pyx_t_2 = PyList_New(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(2, 1, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __Pyx_INCREF(__pyx_n_s_calc);
+  __Pyx_GIVEREF(__pyx_n_s_calc);
+  PyList_SET_ITEM(__pyx_t_2, 0, __pyx_n_s_calc);
+  __pyx_t_1 = __Pyx_Import(__pyx_n_s__5, __pyx_t_2, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 1, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  __pyx_t_2 = __Pyx_ImportFrom(__pyx_t_1, __pyx_n_s_calc); if (unlikely(!__pyx_t_2)) __PYX_ERR(2, 1, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_calc, __pyx_t_2) < 0) __PYX_ERR(2, 1, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
   /* "calculator/main.pyx":3
- * import calc
+ * from . import calc
  * 
  * print("hello world!")             # <<<<<<<<<<<<<<
  * sum = calc.add(5,4)
@@ -2022,16 +2034,16 @@ if (!__Pyx_RefNanny) {
  * diff = calc.sub(5,2)
  * print(sum,diff)
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_calc); if (unlikely(!__pyx_t_2)) __PYX_ERR(2, 4, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_add); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 4, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_calc); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 4, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_tuple__5, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(2, 4, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_add); if (unlikely(!__pyx_t_2)) __PYX_ERR(2, 4, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_sum, __pyx_t_2) < 0) __PYX_ERR(2, 4, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_tuple__6, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 4, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_sum, __pyx_t_1) < 0) __PYX_ERR(2, 4, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
   /* "calculator/main.pyx":5
  * print("hello world!")
@@ -2039,34 +2051,34 @@ if (!__Pyx_RefNanny) {
  * diff = calc.sub(5,2)             # <<<<<<<<<<<<<<
  * print(sum,diff)
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_calc); if (unlikely(!__pyx_t_2)) __PYX_ERR(2, 5, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_sub); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 5, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_calc); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 5, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_tuple__6, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(2, 5, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_sub); if (unlikely(!__pyx_t_2)) __PYX_ERR(2, 5, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_diff, __pyx_t_2) < 0) __PYX_ERR(2, 5, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_tuple__7, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 5, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_diff, __pyx_t_1) < 0) __PYX_ERR(2, 5, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
   /* "calculator/main.pyx":6
  * sum = calc.add(5,4)
  * diff = calc.sub(5,2)
  * print(sum,diff)             # <<<<<<<<<<<<<<
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_sum); if (unlikely(!__pyx_t_2)) __PYX_ERR(2, 6, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_diff); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 6, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_sum); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 6, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
+  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_diff); if (unlikely(!__pyx_t_2)) __PYX_ERR(2, 6, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_3 = PyTuple_New(2); if (unlikely(!__pyx_t_3)) __PYX_ERR(2, 6, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __Pyx_GIVEREF(__pyx_t_2);
-  PyTuple_SET_ITEM(__pyx_t_3, 0, __pyx_t_2);
   __Pyx_GIVEREF(__pyx_t_1);
-  PyTuple_SET_ITEM(__pyx_t_3, 1, __pyx_t_1);
-  __pyx_t_2 = 0;
+  PyTuple_SET_ITEM(__pyx_t_3, 0, __pyx_t_1);
+  __Pyx_GIVEREF(__pyx_t_2);
+  PyTuple_SET_ITEM(__pyx_t_3, 1, __pyx_t_2);
   __pyx_t_1 = 0;
+  __pyx_t_2 = 0;
   if (__Pyx_PrintOne(0, __pyx_t_3) < 0) __PYX_ERR(2, 6, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
